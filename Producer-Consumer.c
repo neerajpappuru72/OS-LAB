@@ -29,7 +29,7 @@ void main()
 				else
 				{
 					consume=buffer[out];
-					printf("Enter consumed value is %d\n",consume);
+					printf("The consumed value is %d\n",consume);
 					out=(out+1)%buffsize;
 				}
 				break;
